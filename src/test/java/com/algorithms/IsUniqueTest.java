@@ -7,10 +7,12 @@ import org.junit.jupiter.api.Test;
 
 public class IsUniqueTest {
 
+    IsUnique isUnique = new IsUnique();
+
     @Test
     public void isUniqueTest() {
-        assertTrue(IsUnique.isUnique("abcde"));
-        assertTrue(IsUnique.isUnique("aAbBcCdDe"));
-        assertFalse(IsUnique.isUnique("abcded"));
+        assertTrue(isUnique.isUnique("abcde"));
+        assertTrue(isUnique.isUnique("aAbBcCdDe"));
+        assertFalse(isUnique.isUnique("abcded"));
     }
 }

@@ -14,7 +14,7 @@ import java.util.Set;
 public class IsUnique {
     private static int NUMBER_OF_CHARS = 128;
 
-    public static boolean isUnique(String s) {
+    public boolean isUnique(String s) {
         if (s.length() > NUMBER_OF_CHARS) return false;
 
         Set<Character> characters = new HashSet<>();
